@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block banner %}
+{% endblock %}
+
+{% block nav_bar %}
+	
+	<ul>
+		<li class="float_left"><a href="{% url 'home:index' %}">AMA</a></li>
+		<li><a href="{% url 'home:index' %}">About Us</a></li>
+		<li><a href="{% url 'home:index' %}">People</a></li>
+		<li><a href="{% url 'home:index' %}">What is AMA?</a></li>
+	</ul>
+	<span class="clear"></span>
+{% endblock %}
+
+{% block content %}
+	<h1>content</h1>
+{% endblock %}

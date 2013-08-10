@@ -1,0 +1,54 @@
+body{
+	width: 60em;
+	margin: 0 auto;
+}
+
+#nav_bar{
+	background-color: #333333;
+	overflow: auto;
+}
+
+#nav_bar ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav_bar ul li{
+	display: block;
+	/*width: 10em;*/
+	float: right;
+}
+
+#nav_bar ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 1em 2em;
+	text-align: center;
+}
+
+#nav_bar ul li a:link, #nav_bar ul li a:visited{
+	color: #FF0000;
+	font-weight: bold;
+}
+
+#nav_bar ul li a:hover, #nav_bar ul li a:active{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#footer{
+	text-align:center;
+}
+
+.clear{
+	clear: both;
+}
+
+.float_left{
+	float: left !important;
+}
+
+.float_right{
+	float: right;
+}
